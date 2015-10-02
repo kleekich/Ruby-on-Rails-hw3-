@@ -1,0 +1,12 @@
+<h1>Show all models</h1>
+
+<% @users.each do |u| %>
+	<p>Username: <%= u.username%> / Age: <%=u.age %></p>
+<%end%>
+<% @cats.each do |c| %>
+	<p>Name: <%= c.name%> </p>
+<%end%>
+<% @todos.each do |t| %>
+	<p>tasks: <%= t.tasks%> / finished: <%=t.finished %></p>	
+
+<%end%>
