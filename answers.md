@@ -1,4 +1,4 @@
- 1. What is the difference between new and create for a model?
+1. What is the difference between new and create for a model?
 	new just does not stored in the database. It is saved when we manually type <User_Object>.save. However, create automatically saves the new instance into the database.
 2. What command combined with new will emulate the same behavior as create?
 	.save
